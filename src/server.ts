@@ -1,7 +1,8 @@
 import express from "express";
 import { PrismaClient } from '@prisma/client';
-import consign from 'consign';
+// import consign from 'consign';
 import path from 'path';
+const consign = require('consign');
 
 const app = express();
 
